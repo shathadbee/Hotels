@@ -1,0 +1,95 @@
+<section class="course__area pt-115 pb-120 grey-bg">
+  <div class="container">
+     <div class="row align-items-end">
+        <div class="col-xxl-5 col-xl-6 col-lg-6">
+           <div class="section__title-wrapper mb-60">
+              <h2 class="section__title">Find the Right<br>Online <span class="yellow-bg yellow-bg-big">Course<img src="assets/img/shape/yellow-bg.png" alt=""></span> for you</h2>
+              <p>You don't have to struggle alone, you've got our assistance and help.</p>
+           </div>
+        </div>
+     </div>
+     <div class="row">
+
+       <mat-tab-group [@.disabled]="true" class="course__menu"  (selectedTabChange)="tabChanged($event)"                  >
+          <mat-tab>
+              <ng-template mat-tab-label><div><button type="button" role="tab">See All <span class="tag">new</span> </button></div></ng-template>
+
+                  <div class="course_wrapper">
+                      <div class="row">
+                          <div *ngFor="let hotel of dataArray" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                              <div class="course__item white-bg mb-30 fix shadow-none">
+                                 <div class="course__thumb w-img p-relative fix">
+                                    <a [routerLink]="['/course-details']">
+                                      <img [src]="hotel.image" alt="loading....">
+                                    </a>
+                                    <div class="course__tag">
+                                       <a href="#" [class]="hotel.color">{{hotel.city}}</a>
+                                    </div>
+                         </div>
+                                 <div class="course__content">
+                                    <div class="course__meta d-flex align-items-center justify-content-between">
+                                      <div class="course__lesson">
+                                        <span><i class="far fa-book-alt"></i>
+                                            {{hotel.name}} </span>
+                                     </div>
+                                       <div class="course__rating">
+                                          <span><i class="icon_star"></i>{{hotel.rating}}  </span>
+                                       </div>
+                                    </div>
+                                    <h3 class="course__title"><a [routerLink]="['/course-details']">
+                                        {{hotel.title}}</a></h3>
+
+                                 </div>
+                                 <div class="course__more d-flex justify-content-between align-items-center">
+                                  <div class="course__status d-flex align-items-center">
+                                      <span [class]="hotel.color">${{hotel.nightPrice}}</span>
+
+                                   </div>
+                                    <div class="course__btn">
+                                       <a [routerLink]="['/course-details']" class="link-btn">
+                                          Know Details
+                                          <i class="far fa-arrow-right"></i>
+                                          <i class="far fa-arrow-right"></i>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                      </div>
+                  </div>
+
+          </mat-tab>
+
+
+        </mat-tab-group>
+     </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

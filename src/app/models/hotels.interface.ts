@@ -5,4 +5,5 @@ export interface IHotels {
   nightPrice: string;
   city: string;
   description: string;
+  title:string;
 }

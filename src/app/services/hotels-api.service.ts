@@ -9,7 +9,7 @@ export class HotelsAPIService {
   constructor(private http: HttpClient) {}
 
   getHotels(): Observable<IHotels | null> {
-    const url: string = 'http://localhost:8000/hotels';
+    const url: string ='http://localhost:8000/hotels';
     return this.http.get<IHotels>(url);
   }
 }
