@@ -18,15 +18,15 @@
                  <nav id="mobile-menu">
                     <ul>
                       <li >
-                        <a [routerLink]="['/']"   >Home</a>
+                        <a [routerLink]="['/']" > Home </a>
 
                        </li>
                        <li class="has-dropdown">
-                        <a [routerLink]="['/courses']"> Courses</a>
+                        <a [routerLink]="['/courses']"> Hotels</a>
                         <ul class="submenu ">
-                           <li><a [routerLink]="['/courses']">Courses</a></li>
+                           <li><a [routerLink]="['/courses']">Hotels</a></li>
                            <li><a [routerLink]="['/courses-list']">Course List</a></li>
-                           <li><a [routerLink]="['/courses-sidebar']">Course sidebar</a></li>
+
                            <li><a [routerLink]="['/course-details']">Course Details</a></li>
                         </ul>
                        </li>
@@ -38,9 +38,8 @@
                            <li><a [routerLink]="['/instructor']">Instructor</a></li>
                            <li><a [routerLink]="['/instructor-details']">Instructor Details</a></li>
                            <li><a [routerLink]="['/event-details']">Event Details</a></li>
-                           <li><a [routerLink]="['/cart']">My Cart</a></li>
-                           <li><a [routerLink]="['/wishlist']">My Wishlist</a></li>
-                           <li><a [routerLink]="['/checkout']">checkout</a></li>
+                             <li><a [routerLink]="['/wishlist']">My Wishlist</a></li>
+
                            <li><a [routerLink]="['/sign-in']">Sign In</a></li>
                            <li><a [routerLink]="['/sign-up']">Sign Up</a></li>
                            <li><a [routerLink]="['/error']">Error</a></li>
@@ -132,17 +131,15 @@
                </li>
               <li class="menu-item-has-children has-droupdown"
               [class.active]="showCoursesDropdown">
-                    <a (click)="coursesDropdown()">Courses</a>
+                    <a (click)="coursesDropdown()">Hotels</a>
                     <ul class="sub-menu" [class.active]="showCoursesDropdown">
                           <li>
-                            <a [routerLink]="['/courses']">Courses</a>
+                            <a [routerLink]="['/courses']">Hotels</a>
                           </li>
                           <li>
                             <a [routerLink]="['/courses-list']">Course List</a>
                           </li>
-                          <li>
-                            <a [routerLink]="['/courses-sidebar']">Course sidebar </a>
-                          </li>
+
                           <li>
                             <a [routerLink]="['/course-details']">Course Details</a>
                           </li>
@@ -159,9 +156,9 @@
                   <li><a [routerLink]="['/instructor']">Instructor</a></li>
                   <li><a [routerLink]="['/instructor-details']">Instructor Details</a></li>
                   <li><a [routerLink]="['/event-details']">Event Details</a></li>
-                  <li><a [routerLink]="['/cart']">My Cart</a></li>
+
                   <li><a [routerLink]="['/wishlist']">My Wishlist</a></li>
-                  <li><a [routerLink]="['/checkout']">checkout</a></li>
+
                   <li><a [routerLink]="['/sign-in']">Sign In</a></li>
                   <li><a [routerLink]="['/sign-up']">Sign Up</a></li>
                   <li><a [routerLink]="['/error']">Error</a></li>

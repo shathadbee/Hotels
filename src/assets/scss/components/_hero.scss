@@ -8,6 +8,7 @@
 .hero{
 
     &__height{
+      &__area{}
         min-height: 950px;
 
         @media #{$lg}{
