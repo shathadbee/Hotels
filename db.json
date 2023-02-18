@@ -4,10 +4,46 @@
     "name":"Oryx",
     "rating":4.5,
     "image":"https://i.ibb.co/svVv3Qt/oryx-hotel-aqaba.jpg",
-    "nightPrice": "70 JD",
+    "nightPrice": "70 JD/nighy",
     "city":"Aqaba",
-    "title":"Aqaba city, overlooking the Red Sea",
-    "description":"Aqaba city, overlooking the Red Sea, 15 minutes driving to King Hussein International Airport, 5 minutes away from the city centre of Aqaba. Oryx Hotel Aqaba with its 7 floors is based on the concept of environmental designs and regional architecture surrounded by urban perspective with spectacular sea view. The focus of our facilities are a blend of relaxing leisure and full business service amenities that are based on the newest power and water saving technology so as solar energy enhancing customers comfort. The interior reflects a contemporary atmosphere with a classic elegance agreeable to all receptive travelers."
+    "description":"Aqaba city, overlooking the Red Sea, 15 minutes driving to King Hussein International Airport, 5 minutes away from the city centre of Aqaba. Oryx Hotel Aqaba with its 7 floors is based on the concept of environmental designs and regional architecture surrounded by urban perspective with spectacular sea view. The focus of our facilities are a blend of relaxing leisure and full business service amenities that are based on the newest power and water saving technology so as solar energy enhancing customers comfort. The interior reflects a contemporary atmosphere with a classic elegance agreeable to all receptive travelers.",
+    "title":"Aqaba city, overlooking the Red Sea"
+   },
+   {
+    "name":"Mövenpick",
+    "rating":3.5,
+    "image":"https://i.ibb.co/tmhHxZZ/Screenshot-2023-02-18-at-8-32-37-PM.png",
+    "nightPrice": "60 JD/night",
+    "city":"Aqaba",
+    "description":"ocated on the beachfront in Aqaba, Al Manara, a Luxury Collection Hotel, Aqaba features a private beach area and free WiFi. Boasting a 24-hour front desk, this property also provides guests with an outdoor pool, The property has a garden, as well as a restaurant that serves seafood cuisine,All guest rooms comes with air conditioning, a flat-screen TV with satellite channels, a coffee machine",
+    "title":"Ocated on the beachfront in Aqaba, Al Manara"
+   },
+   {
+    "name":"Oryx",
+    "rating":4.8,
+    "image":"https://i.ibb.co/svVv3Qt/oryx-hotel-aqaba.jpg",
+    "nightPrice": "80 JD/night",
+    "city":"Amman",
+    "description":"Aqaba city, overlooking the Red Sea, 15 minutes driving to King Hussein International Airport, 5 minutes away from the city centre of Aqaba. Oryx Hotel Aqaba with its 7 floors is based on the concept of environmental designs and regional architecture surrounded by urban perspective with spectacular sea view. The focus of our facilities are a blend of relaxing leisure and full business service amenities that are based on the newest power and water saving technology so as solar energy enhancing customers comfort. The interior reflects a contemporary atmosphere with a classic elegance agreeable to all receptive travelers.",
+    "title":"Ocated on the beachfront in Aqaba, Al Manara"
+   },
+   {
+    "name":"Oryx",
+    "rating":4.3,
+    "image":"https://i.ibb.co/svVv3Qt/oryx-hotel-aqaba.jpg",
+    "nightPrice": "70 JD",
+    "city":"Amman",
+    "description":"Aqaba city, overlooking the Red Sea, 15 minutes driving to King Hussein International Airport, 5 minutes away from the city centre of Aqaba. Oryx Hotel Aqaba with its 7 floors is based on the concept of environmental designs and regional architecture surrounded by urban perspective with spectacular sea view. The focus of our facilities are a blend of relaxing leisure and full business service amenities that are based on the newest power and water saving technology so as solar energy enhancing customers comfort. The interior reflects a contemporary atmosphere with a classic elegance agreeable to all receptive travelers.",
+    "title":"Ocated on the beachfront in Aqaba, Al Manara"
+   },
+   {
+    "name":"Oryx",
+    "rating":4.5,
+    "image":"https://i.ibb.co/svVv3Qt/oryx-hotel-aqaba.jpg",
+    "nightPrice": "70 JD",
+    "city":"Dead_sea",
+    "description":"Aqaba city, overlooking the Red Sea, 15 minutes driving to King Hussein International Airport, 5 minutes away from the city centre of Aqaba. Oryx Hotel Aqaba with its 7 floors is based on the concept of environmental designs and regional architecture surrounded by urban perspective with spectacular sea view. The focus of our facilities are a blend of relaxing leisure and full business service amenities that are based on the newest power and water saving technology so as solar energy enhancing customers comfort. The interior reflects a contemporary atmosphere with a classic elegance agreeable to all receptive travelers.",
+    "title":"Ocated on the beachfront in Aqaba, Al Manara"
    }
   ]
 }
