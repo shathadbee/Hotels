@@ -7,9 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreComponentModule } from './core/core-component/core-component.module';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { InterceptorService } from './interceptor/interceptor.service';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ContactComponent],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
