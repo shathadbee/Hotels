@@ -21,7 +21,7 @@
                           <div *ngFor="let hotel of dataArray" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                               <div class="course__item white-bg mb-30 fix shadow-none">
                                  <div class="course__thumb w-img p-relative fix">
-                                    <a [routerLink]="['/course-details']">
+                                    <a [routerLink]="['/hotel-details']">
                                       <img [src]="hotel.image" alt="loading....">
                                     </a>
                                     <div class="course__tag">
@@ -85,7 +85,7 @@
                                     <span><i class="icon_star"></i>{{hotel.rating}}  </span>
                                  </div>
                               </div>
-                              <h3 class="course__title"><a [routerLink]="['/course-details']">
+                              <h3 class="course__title"><a [routerLink]="['/hotel-details']">
                                   {{hotel.title}}</a></h3>
 
                            </div>

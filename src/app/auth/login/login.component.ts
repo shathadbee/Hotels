@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-
+  toStartupDetails(key: any) {
+   // this.router.navigateByUrl(`startups/startup-details/${key}`);
+  }
 }

@@ -7,10 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreComponentModule } from './core/core-component/core-component.module';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { InterceptorService } from './interceptor/interceptor.service';
-import { ContactComponent } from './pages/contact/contact.component';
+import { SharedModule } from './shared/shared.module';
+import { AuthModule } from './auth/auth.module';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
-  declarations: [AppComponent, ContactComponent],
+  declarations: [AppComponent],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
@@ -25,6 +28,10 @@ import { ContactComponent } from './pages/contact/contact.component';
     BrowserAnimationsModule,
     CoreComponentModule,
     HttpClientModule,
+    SharedModule,
+    AuthModule,
+    RouterModule,
+
   ],
 })
 export class AppModule {}

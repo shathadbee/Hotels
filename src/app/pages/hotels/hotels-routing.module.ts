@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HotelDetailsComponent } from './hotel-details/hotel-details.component';
 
 const routes: Routes = [
   {path:'',
-  redirectTo:'home',
+  redirectTo:'hotel-details',
   pathMatch:'full',},
 
-  {path: 'home',
-  component: HomeComponent}
+  {path: 'hotel-details',
+  component:HotelDetailsComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class HomeRoutingModule { }
+export class HotelsRoutingModule { }
