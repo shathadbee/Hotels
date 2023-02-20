@@ -27,7 +27,7 @@
                            <li><a [routerLink]="['/courses']">Hotels</a></li>
                            <li><a [routerLink]="['/courses-list']">Course List</a></li>
 
-                           <li><a [routerLink]="['/course-details']">Course Details</a></li>
+                           <li><a [routerLink]="['/hotel-details']">Hotel Details</a></li>
                         </ul>
                        </li>
 
@@ -40,8 +40,9 @@
                            <li><a [routerLink]="['/event-details']">Event Details</a></li>
 
 
-                           <li><a [routerLink]="['/sign-in']">Sign In</a></li>
-                           <li><a [routerLink]="['/sign-up']">Sign Up</a></li>
+
+                           <li><a [routerLink]="['/login']">Sign In</a></li>
+                           <li><a [routerLink]="['/signup']">Sign Up</a></li>
                            <li><a [routerLink]="['/error']">Error</a></li>
                         </ul>
                      </li>
@@ -63,7 +64,7 @@
                     </svg>
                  </div>
                  <div class="header__btn header__btn-2 ml-30 d-none d-sm-block">
-                    <a [routerLink]="['/sign-up']" class="e-btn">Sign up</a>
+                    <a [routerLink]="['/signup']" class="e-btn">Sign up</a>
                  </div>
                  <div class="sidebar__menu d-xl-none">
                     <div (click)="handleSidebar()" class="sidebar-toggle-btn sidebar-toggle-btn-white ml-30" id="sidebar-toggle">
