@@ -4,19 +4,14 @@ import { HotelDetailsComponent } from './hotel-details/hotel-details.component';
 import { HotelsComponent } from './hotels/hotels.component';
 
 const routes: Routes = [
-  {path:'',
-  redirectTo:'hotels-list',
-  pathMatch:'full',},
+  { path: '', redirectTo: 'hotels-list', pathMatch: 'full' },
 
-  {path: 'hotel-details',
-  component:HotelDetailsComponent },
-  {path: 'hotels-list',
-  component:HotelsComponent },
-
+  { path: 'hotel-details/:id', component: HotelDetailsComponent },
+  { path: 'hotels-list', component: HotelsComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class HotelsRoutingModule { }
+export class HotelsRoutingModule {}

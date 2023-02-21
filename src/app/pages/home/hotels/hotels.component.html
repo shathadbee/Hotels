@@ -19,13 +19,13 @@
                   <div class="course_wrapper">
                       <div class="row">
                           <div *ngFor="let hotel of dataArray" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                              <div class="course__item white-bg mb-30 fix shadow-none">
+                              <div class="course__item white-bg mb-30 fix shadow-none" >
                                  <div class="course__thumb w-img p-relative fix">
-                                    <a [routerLink]="['/hotel-details']">
+                                    <a routerLink="/hotels/hotel-details/{{hotel.id}}">
                                       <img [src]="hotel.image" alt="loading....">
                                     </a>
                                     <div class="course__tag">
-                                       <a href="#" [class]="hotel.color">{{hotel.city}}</a>
+                                       <a routerLink="/hotels/hotel-details/{{hotel.id}}" [class]="hotel.color">{{hotel.city}}</a>
                                     </div>
                          </div>
                                  <div class="course__content">
@@ -38,7 +38,7 @@
                                           <span><i class="icon_star"></i>{{hotel.rating}}  </span>
                                        </div>
                                     </div>
-                                    <h3 class="course__title"><a [routerLink]="['/hotel-details']">
+                                    <h3 class="course__title"><a routerLink="/hotels/hotel-details/{{hotel.id}}">
                                         {{hotel.title}}</a></h3>
 
                                  </div>
@@ -48,7 +48,7 @@
 
                                    </div>
                                     <div class="course__btn">
-                                       <a [routerLink]="['/hotel-details']" class="link-btn">
+                                       <a routerLink="/hotels/hotel-details/{{hotel.id}}" class="link-btn">
                                           Know Details
                                           <i class="far fa-arrow-right"></i>
                                           <i class="far fa-arrow-right"></i>
@@ -68,7 +68,7 @@
                     <div *ngFor="let hotel of current" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="course__item white-bg mb-30 fix shadow-none">
                            <div class="course__thumb w-img p-relative fix">
-                              <a [routerLink]="['/course-details']">
+                              <a routerLink="/hotels/hotel-details/{{hotel.id}}">
                                 <img [src]="hotel.image" alt="loading....">
                               </a>
                               <div class="course__tag">
@@ -85,7 +85,7 @@
                                     <span><i class="icon_star"></i>{{hotel.rating}}  </span>
                                  </div>
                               </div>
-                              <h3 class="course__title"><a [routerLink]="['/hotel-details']">
+                              <h3 class="course__title"><a routerLink="/hotels/hotel-details/{{hotel.id}}">
                                   {{hotel.title}}</a></h3>
 
                            </div>
@@ -95,7 +95,7 @@
 
                              </div>
                               <div class="course__btn">
-                                 <a [routerLink]="['/hotel-details']" class="link-btn">
+                                 <a routerLink="/hotels/hotel-details/{{hotel.id}}" class="link-btn">
                                     Know Details
                                     <i class="far fa-arrow-right"></i>
                                     <i class="far fa-arrow-right"></i>
