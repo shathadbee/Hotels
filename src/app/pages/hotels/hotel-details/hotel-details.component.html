@@ -8,16 +8,14 @@
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a [routerLink]="['/']">Home</a></li>
-                <li class="breadcrumb-item">
-                  <a [routerLink]="['/courses']">Courses</a>
-                </li>
+
                 <li class="breadcrumb-item active" aria-current="page">
                   {{hotel.title}}
                 </li>
               </ol>
             </nav>
           </div>
-          <span class="page__title-pre">Development</span>
+          <span class="page__title-pre">     {{hotel.city}}</span>
           <h5 class="page__title-3">
             {{hotel.title}}
           </h5>

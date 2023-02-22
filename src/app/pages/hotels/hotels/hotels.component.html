@@ -2,6 +2,8 @@
 
  <app-breadcrumb title="Hotels" subtitle="Hotels"></app-breadcrumb>
 <div class="row">
+  <div class="col-xxl-12">
+    <div class="course__tab-conent">
   <div *ngFor="let hotel of dataArray" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
       <div class="course__item white-bg mb-30 fix shadow-none">
          <div class="course__thumb w-img p-relative fix">
@@ -37,10 +39,14 @@
                   <i class="far fa-arrow-right"></i>
                   <i class="far fa-arrow-right"></i>
                </a>
+
             </div>
          </div>
+
+         <div class="course__title"><a [routerLink]="['/hotel-details']">
+          {{hotel.description}}</a></div>
       </div>
-   </div>
+   </div></div></div>
 </div>
 
 
