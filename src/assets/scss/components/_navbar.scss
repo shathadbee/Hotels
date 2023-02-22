@@ -269,7 +269,7 @@
 				line-height: 22px;
 				text-align: center;
 				font-size: 14px;
-				color: $white;
+				color: rgba($color: $black, $alpha: .2);
 				background: $e-blue;
 				@include border-radius(50%);
 				font-weight: 500;
@@ -588,7 +588,7 @@
 	& ul{
 		& li{
 			& a{
-				color: $white;
+				color: $grey-8;
 				position: relative;
 				&::before{
 					position: absolute;
@@ -598,7 +598,7 @@
 					bottom: 38px;
 					width: 0%;
 					height: 1px;
-					background: $white;
+					background: $grey-8;
 				}
 			}
 			&.has-dropdown{
@@ -676,7 +676,7 @@
         top: 0;
         width: 360px;
         height: 100%;
-        background: $white  none repeat scroll 0 0;
+        background: $black  none repeat scroll 0 0;
         overflow-y: scroll;
         @include box-shadow(-5px 0 20px -5px rgba(0, 0, 0, 0.5));
         -webkit-transition: all .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
