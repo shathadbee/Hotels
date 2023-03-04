@@ -1,4 +1,4 @@
-<section class="hotel__area pt-115 pb-120 grey-bg">
+<section class="hotel__area pt-100 pb-120 grey-bg">
   <div class="container">
      <div class="row align-items-end">
 
@@ -10,15 +10,15 @@
            </div>
         </div>
      </div>
-     <div class="row">
+     <div class="row  ">
 
-       <mat-tab-group [@.disabled]="true" class="hotel__menu"  (selectedTabChange)="tabChanged($event)"                  >
+       <mat-tab-group [@.disabled]="true" class="hotel__menu "  (selectedTabChange)="tabChanged($event) "                  >
           <mat-tab>
               <ng-template mat-tab-label><div><button type="button" role="tab">See All </button></div></ng-template>
 <!-- <span class="tag"> new </span>-->
                   <div class="hotel_wrapper">
-                      <div class="row">
-                          <div *ngFor="let hotel of dataArray" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                      <div class="row pt-60">
+                          <div *ngFor="let hotel of dataArray" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 ">
                               <div class="hotel__item white-bg mb-30 fix shadow-none" >
                                  <div class="hotel__thumb w-img p-relative fix">
                                     <a routerLink="/hotels/hotel-details/{{hotel.id}}">
@@ -64,7 +64,7 @@
           <ng-container *ngFor="let city of cities" >
             <mat-tab label="{{city}}" >
               <div class="hotel_wrapper">
-                <div class="row">
+                <div class="row pt-60">
                     <div *ngFor="let hotel of current" class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="hotel__item white-bg mb-30 fix shadow-none">
                            <div class="hotel__thumb w-img p-relative fix">
