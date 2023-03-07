@@ -218,7 +218,7 @@
 					fill: #8C8FAA;
 				}
 				& .st1{
-					fill: #FFFFFF;
+					fill: #8C8FAA;
 				}
 				&:hover{
 					cursor: pointer;
@@ -604,7 +604,7 @@
 			&.has-dropdown{
 				& a{
 					&::after{
-						color: $white;
+						color: $grey-8;
 					}
 				}
 			}
@@ -668,6 +668,7 @@
         }
     }
 }
+
 
 .sidebar{
     &__area{
